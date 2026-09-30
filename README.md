@@ -1,51 +1,74 @@
-# Student Marks Analysis 📊
+Student Marks Analysis 📊
 
-## About the Project
+A beginner-friendly Python project that analyzes student marks using Pandas and creates visualizations using Matplotlib.
 
-This is a beginner-friendly Python project that analyzes student marks in three subjects.
+📌 Project Features
+
+- Reads student marks from a CSV file
+- Calculates total marks
+- Calculates average marks
+- Determines Pass/Fail result
+- Finds highest total marks
+- Finds lowest total marks
+- Calculates class average
+- Creates student average marks chart
+- Creates subject-wise average marks chart
+- Creates Pass/Fail distribution chart
+
+🛠️ Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
+- CSV
+
+📂 Project Files
+
+- "student_marks.py" – Main analysis program
+- "student_marks_basic.py" – Basic Python version
+- "students.csv" – Student marks dataset
+- "README.md" – Project documentation
+
+📊 Results
 
 The program calculates:
 
-* Total marks
-* Average marks
-* Pass or Fail result
-* Highest mark
-* Lowest mark
+- Highest Total: 275
+- Lowest Total: 174
+- Class Average: 74.27
 
-## Technologies Used
+All 5 students in the current dataset have passed.
 
-* Python
-* Dictionaries
-* Lists
-* Loops
-* Conditional statements
-* Built-in functions
+📈 Visualizations
 
-## How It Works
+The project generates three charts:
 
-1. Student names and marks are stored in a Python dictionary.
-2. The program calculates the total and average marks.
-3. It determines whether each student has passed or failed.
-4. It finds the highest and lowest marks.
+1. Student Average Marks
+2. Subject-wise Average Marks
+3. Pass vs Fail Distribution
 
-## Sample Students
+▶️ How to Run
 
-| Student | Marks      |
-| ------- | ---------- |
-| Ravi    | 85, 78, 90 |
-| Sita    | 65, 72, 68 |
-| Rahul   | 92, 88, 95 |
-| Priya   | 55, 61, 58 |
-| Arun    | 75, 80, 70 |
+Install the required libraries:
 
-## Purpose
+pip install pandas matplotlib
 
-This project was created as a beginner Python project while learning programming and Data Science concepts.
+Then run:
 
-## Future Improvements
+python student_marks.py
 
-* Add more students
-* Read data from a CSV file
-* Use Pandas for data analysis
-* Create graphs using Matplotlib
-* Add a Machine Learning model for prediction
+🎯 Learning Outcomes
+
+Through this project, I learned:
+
+- Working with CSV files
+- Using Pandas DataFrames
+- Performing calculations on data
+- Applying conditions to data
+- Creating charts using Matplotlib
+- Organizing a Python data analysis project
+- Using GitHub to manage a project
+
+👩‍💻 Author
+
+Ruthika
