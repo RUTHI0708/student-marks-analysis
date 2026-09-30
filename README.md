@@ -35,7 +35,7 @@ The program calculates:
 
 - Highest Total: 275
 - Lowest Total: 174
-- Class Average: 74.27
+- Class Average: 74.47
 
 All 5 students in the current dataset have passed.
 
